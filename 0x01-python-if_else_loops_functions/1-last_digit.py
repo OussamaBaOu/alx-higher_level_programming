@@ -11,7 +11,7 @@ if a > 5:
 
     print("greater than 5")
 
-if a == 0:
+elif a == 0:
 
     print("0")
 
