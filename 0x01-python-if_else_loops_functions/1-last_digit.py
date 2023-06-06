@@ -7,11 +7,11 @@ if number < 0:
     a = -a
     print("Last digit of {} is {} and is ".format(number, a), end="")
 
-elif number > 5:
+if a > 5:
 
     print("greater than 5")
 
-elif number == 0:
+if a == 0:
 
     print("0")
 
