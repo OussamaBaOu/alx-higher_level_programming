@@ -7,13 +7,13 @@ if number < 0:
     a = -a
     print("Last digit of {} is {} and is ".format(number, a), end="")
 
-elif a > 5:
+if a > 5:
 
-    print("greater than 5")
+    print("Last digit of {} is {} and isgreater than 5".format(number, a))
 
 elif a == 0:
 
-    print("0")
+    print("Last digit of {} is {} and is0".format(number, a))
 
 else:
 
