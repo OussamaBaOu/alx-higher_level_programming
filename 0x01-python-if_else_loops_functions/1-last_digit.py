@@ -9,11 +9,11 @@ if number < 0:
 
 if a > 5:
 
-    print("Last digit of {} is {} and isgreater than 5".format(number, a))
+    print("Last digit of {} is {} and is greater than 5".format(number, a))
 
 elif a == 0:
 
-    print("Last digit of {} is {} and is0".format(number, a))
+    print("Last digit of {} is {} and is 0".format(number, a))
 
 else:
 
