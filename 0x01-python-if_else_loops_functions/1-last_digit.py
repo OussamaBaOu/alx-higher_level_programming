@@ -6,7 +6,7 @@ digit = abs(number) % 10
 if number < 0:
         digit = -digit
 
-        print("Last digit of {} is {}".format(number, digit), end="")
+        print("Last digit of {} is {}".format(number, digit), end="\n")
 
         if digit > 5:
                 print(" and is greater than 5")
