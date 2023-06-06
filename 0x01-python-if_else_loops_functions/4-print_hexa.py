@@ -2,4 +2,4 @@
 
 for a in range(0, 99):
 
-        print("{} = {}".format(a, hex(a)))
+print("{} = {}".format(a, hex(a)))
