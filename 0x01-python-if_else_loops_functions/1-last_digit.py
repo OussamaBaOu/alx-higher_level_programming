@@ -2,16 +2,16 @@
 import random
 number = random.randint(-10000, 10000)
 a = abs(number) % 10
-if a < 0:
+if number < 0:
 
     a = -a
     print("Last digit of {} is {} and is ".format(number, a), end="")
 
-if a > 5:
+if number > 5:
 
     print("greater than 5")
 
-elif a == 0:
+elif number == 0:
 
     print("0")
 
