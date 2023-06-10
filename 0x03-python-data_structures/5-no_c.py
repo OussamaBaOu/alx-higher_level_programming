@@ -7,4 +7,4 @@ def no_c(my_string):
         if (my_string[d] == 'c' or my_string[d] == 'C'):
             c = c[:(d - b)] + my_string[(d + 1):]
             b += 1
-        return (c)
+    return (c)
