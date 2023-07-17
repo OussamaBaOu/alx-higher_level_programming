@@ -324,8 +324,8 @@ class TestSquare_area(unittest.TestCase):
         self.assertEqual(100, Square(10, 0, 0, 1).area())
 
     def test_area_large(self):
-        s = Square(9999999999999, 0, 0, 1)
-        self.assertEqual(999699999979999998000000000000000001, s.area())
+        s = Square(999999999999999999, 0, 0, 1)
+        self.assertEqual(999999999999999998000000000000000001, s.area())
 
     def test_area_changed_attributes(self):
         s = Square(2, 0, 0, 1)
