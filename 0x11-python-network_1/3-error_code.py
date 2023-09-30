@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-""" 
-Script that takes in URL, send request 
+"""
+Script that takes in URL, send request
 to URL and display body
 """
 
